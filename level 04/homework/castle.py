@@ -358,6 +358,82 @@ forward(225)
 right(90)
 forward(300)
 
+#window1
+
+penup()
+
+right(90)
+
+forward(375)
+right(90)
+forward(125)
+
+pendown()
+
+
+begin_fill()
+color("black", "skyblue")
+
+forward(125)
+left(90)
+forward(125)
+left(90)
+forward(125)
+left(90)
+forward(125)
+left(90)
+
+forward(64)
+left(90)
+forward(125)
+backward(64)
+left(90)
+forward(64)
+backward(125)
+
+end_fill()
+
+
+#window2
+penup()
+goto(700, -200)
+
+
+right(90)
+forward(150)
+right(90)
+forward(125)
+
+pendown()
+
+begin_fill()
+color("black", "skyblue")
+
+forward(125)
+left(90)
+forward(125)
+left(90)
+forward(125)
+left(90)
+forward(125)
+left(90)
+
+forward(64)
+left(90)
+forward(125)
+backward(64)
+left(90)
+forward(64)
+backward(125)
+
+end_fill()
+
+
+
+
+
+
+
 
 
 
